@@ -2,7 +2,7 @@
 
  @font-face {
    font-family: Willkids;
-   src: url("/fonts/Willkids.otf"), url("/fonts/Willkids.ttf");
+   src: url("./fonts/Willkids.otf"), url("./fonts/Willkids.ttf");
  }
  
  h1 {
@@ -17,7 +17,7 @@
    width:50%;
    height:300px;
 
-   background-image: url("/images/cat.png");
+   background-image: url("./images/cat.png");
    background-position: center center;
    background-repeat: no-repeat;
    background-size: contain;
@@ -26,7 +26,7 @@
  .grid{
     min-width:400px;
     min-height:600px;
-    background-image: url("/images/background.jpg");
+    background-image: url("./images/background.jpg");
     background-position: center center;
     background-size: cover;
      background-repeat: no-repeat;
@@ -40,7 +40,7 @@
  .doodler{
     width:87px;
     height:85px;
-    background-image: url("/images/cat.png");
+    background-image: url("./images/cat.png");
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -49,7 +49,7 @@
  .platform{
     width:85px;
     height:15px;
-    background-image: url("/images/platform.png");
+    background-image: url("./images/platform.png");
     background-size: contain;
     position: absolute;
  }
